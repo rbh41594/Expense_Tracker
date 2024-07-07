@@ -1,0 +1,15 @@
+
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: nowrap;
+  }
+  
+  .heroSection > * {
+    flex: 1;
+    margin: 10px;
+    min-width: 0;
+    max-width: calc(50% - 20px); 
+  }
+  
